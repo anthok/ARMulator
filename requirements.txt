@@ -1,0 +1,5 @@
+capstone==3.0.5.post1
+colorama==0.4.1
+hexdump==3.3
+pkg-resources==0.0.0
+unicorn==1.0.1
