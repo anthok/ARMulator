@@ -1,7 +1,5 @@
-# ARMULATOR  
-ARM CLI Emulation Tool  
-
 ![ArmulatorLogo](https://i.imgur.com/axnOXB4.png)  
+ARM CLI Emulation Tool  
 
 
 ### Dependencies
