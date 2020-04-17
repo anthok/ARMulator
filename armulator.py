@@ -42,6 +42,6 @@ if __name__ == '__main__':
   with open(args.code,'rb') as fh:
     code = fh.read()
 
-  config = configloader.JSONLoad(args.config_path, verbose=False)
-  eng = engine.EmulationEngine(code,config)
+  config = configloader.JSONLoad(args.config_path)
+  eng = engine.EmulationEngine(code, config)
   eng.emulate()

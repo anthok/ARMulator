@@ -7,15 +7,12 @@ class JSONLoad():
   Purpose: Load & Parse JSON config for ARMulator
   '''
 
-  def __init__(self, config_file, verbose=False):
-    self.verbose = verbose # False by default
+  def __init__(self, config_file):
     self.f_name = config_file
     self.json_data = self.read_config()
 
     self.code_path = ""
     self.load_address = ""
-    self.optional_ram_dump = ""
-    self.reg_arm_r0 = ""
 
     self.parse_config() # Populates the JSON variables above.
 
@@ -81,13 +78,3 @@ class JSONLoad():
     except KeyError as k_err:
       logging.error("[!] Error could not obtain key %s" % str(k_err))
       sys.exit(1)
-
-  def dump_config(self):
-    '''
-    Parameter:
-    Purpose: Dump all 
-    '''
-    logging.info("Code Path: %s" % str( self.code_path))
-    logging.info("Load Address: %s" % str(self.load_address))
-    logging.info("RAM Dump: %s" % str(self.optional_ram_dump))
-    logging.info("RAM Address: %s" % str(self.reg_arm_r0))
