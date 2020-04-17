@@ -91,9 +91,3 @@ class JSONLoad():
     logging.info("Load Address: %s" % str(self.load_address))
     logging.info("RAM Dump: %s" % str(self.optional_ram_dump))
     logging.info("RAM Address: %s" % str(self.reg_arm_r0))
-  
-if __name__ == "__main__":
-  logging.error("[TEST - JSONLOAD]")
-  jl = JSONLoad("arm-test.json", verbose=False)
-  jl.dump_config()
-
