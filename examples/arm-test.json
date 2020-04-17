@@ -1,29 +1,29 @@
 {
-  "load_address": "0x9f5ffe00",
+  "load_address": "0x0",
   "arch" : "arm",
 
   "ram" : {
       "ram_dump": "code_samples/ramdump.bin",
-      "ram_address": "0x9f6e9dcc"
+      "ram_address": "0x0"
   },
 
   "registers" : {
-    "r0" : "0x9f6e9dcc",
-    "r1" : "0x0",
-    "r2" : "0x0",
-    "r3" : "0x0",
-    "r4" : "0x0",
-    "r5" : "0x0",
-    "r6" : "0x0",
-    "r7" : "0x0",
-    "r8" : "0x0",
-    "r9" : "0x0",
-    "r10" : "0x0",
-    "r11" : "0x0",
-    "r12" : "0x0",
-    "lr" : "0x0",
-    "sp" : "0x0",
-    "pc" : "0x9f6124a0"
+    "r0"   : "0x0",
+    "r1"   : "0x0",
+    "r2"   : "0x0",
+    "r3"   : "0x0",
+    "r4"   : "0x0",
+    "r5"   : "0x0",
+    "r6"   : "0x0",
+    "r7"   : "0x0",
+    "r8"   : "0x0",
+    "r9"   : "0x0",
+    "r10"  : "0x0",
+    "r11"  : "0x0",
+    "r12"  : "0x0",
+    "lr"   : "0x0",
+    "sp"   : "0x0",
+    "pc"   : "0x0"
   }
 
 }
