@@ -4,7 +4,7 @@ ARM CLI Emulation Tool
 
 ### Dependencies
 
-Requires Python3, only tested on 3.5 use at one risk otherwise.
+Requires Python3, only tested on 3.5 use at own risk otherwise.
 
 ```
 Python 3.5
